@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/reporteBtn"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="120dp"
+        android:layout_toRightOf="@+id/tortasBtn"
+        android:background="@drawable/fbicon"
+        android:text="reporte"/>
+
+    <Button
+        android:id="@+id/mapaconflictosBtn"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_below="@+id/reporteBtn"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/fbicon"
+        android:text="mapaconflicto" />
+
+    <Button
+        android:id="@+id/tortasBtn"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="120dp"
+        android:text="tortas" />
+
+    <Button
+        android:id="@+id/aboutBtn"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_below="@+id/tortasBtn"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/mapaconflictosBtn"
+        android:background="#00ffff"
+        android:text="about" />
+
+    <ImageView
+        android:id="@+id/logoImgvw"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+ 
+        android:background="@drawable/fbicon"
+        android:contentDescription="logo conflictos" />
+
+
+        <Button
+            android:id="@+id/fbBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/fbicon" />
+
+        <Button
+            android:id="@+id/twtBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/twticon" />
+</RelativeLayout>
