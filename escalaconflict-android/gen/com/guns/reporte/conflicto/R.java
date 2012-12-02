@@ -22,39 +22,53 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int black_overlay=0x7f040000;
     }
     public static final class drawable {
-        public static final int fbicon=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
-        public static final int iconoconflicto=0x7f020002;
-        public static final int twticon=0x7f020003;
+        public static final int botonmapas05=0x7f020000;
+        public static final int botonmapas06=0x7f020001;
+        public static final int botonmapas07=0x7f020002;
+        public static final int botonmapas08=0x7f020003;
+        public static final int btnaqui=0x7f020004;
+        public static final int btnlugar=0x7f020005;
+        public static final int effect=0x7f020006;
+        public static final int fbicon=0x7f020007;
+        public static final int fondo2=0x7f020008;
+        public static final int ic_launcher=0x7f020009;
+        public static final int iconoconflicto=0x7f02000a;
+        public static final int mano=0x7f02000b;
+        public static final int twticon=0x7f02000c;
     }
     public static final class id {
-        public static final int aboutBtn=0x7f070010;
-        public static final int editText1=0x7f070007;
-        public static final int editText2=0x7f070009;
+        public static final int aboutBtn=0x7f07000f;
         public static final int editText3=0x7f07000a;
-        public static final int fbBtn=0x7f070012;
-        public static final int logoImgvw=0x7f070011;
-        public static final int mapaconflictosBtn=0x7f07000f;
-        public static final int mapview=0x7f07000c;
-        public static final int reporteBtn=0x7f07000d;
+        public static final int editText4=0x7f070008;
+        public static final int fbBtn=0x7f070011;
+        public static final int gpsBtn=0x7f070016;
+        public static final int logoImgvw=0x7f070010;
+        public static final int mapaconflictosBtn=0x7f07000e;
+        public static final int mapview=0x7f070014;
+        public static final int reportBtn=0x7f070015;
+        public static final int reporteBtn=0x7f07000c;
         public static final int scrollView1=0x7f070000;
         public static final int siguiente=0x7f07000b;
-        public static final int spinner1=0x7f070004;
-        public static final int titulo1=0x7f070003;
-        public static final int titulo3=0x7f070005;
-        public static final int titulo4=0x7f070008;
-        public static final int tortasBtn=0x7f07000e;
-        public static final int twtBtn=0x7f070013;
-        public static final int widget33=0x7f070001;
-        public static final int widget36=0x7f070002;
-        public static final int widget39=0x7f070006;
+        public static final int spinner1=0x7f070002;
+        public static final int spinner2=0x7f070004;
+        public static final int spinner3=0x7f070006;
+        public static final int spinnertxtview=0x7f070013;
+        public static final int titulo1=0x7f070001;
+        public static final int titulo2=0x7f070005;
+        public static final int titulo3=0x7f070003;
+        public static final int titulo4=0x7f070007;
+        public static final int titulo5=0x7f070009;
+        public static final int tortasBtn=0x7f07000d;
+        public static final int twtBtn=0x7f070012;
     }
     public static final class layout {
         public static final int activity_splash=0x7f030000;
         public static final int admin=0x7f030001;
-        public static final int conflictodetalle=0x7f030002;
-        public static final int dashboard=0x7f030003;
+        public static final int dashboard=0x7f030002;
+        public static final int itemview=0x7f030003;
         public static final int mapa_layout=0x7f030004;
+        public static final int mapapuntos=0x7f030005;
+        public static final int tortas=0x7f030006;
     }
     public static final class string {
         public static final int app_name=0x7f050000;

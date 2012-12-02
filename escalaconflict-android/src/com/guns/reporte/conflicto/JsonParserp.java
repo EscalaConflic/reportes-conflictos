@@ -25,24 +25,19 @@ public class JsonParserp {
 	static InputStream is = null;
 	static JSONObject json_data = null;
 	static String result = "";
-
     static JSONObject jObj = null;
     static String json = "";
-
-	// constructor
 	public JsonParserp() {
+		
 	}
-
 	public  JSONArray getJSONFromUrl(ArrayList<NameValuePair> nameValuePairs, String url) {
 
-		//http post this will keep the same way as it was (it's important to do not forget to add Internet access to androidmanifest.xml
 		InputStream is = null;
 		String result ="";
 		JSONArray jArray = null;
 		try{
 			HttpClient httpclient = new DefaultHttpClient();
 			HttpPost httppost = new HttpPost(url);
-			httppost.setEntity(new UrlEncodedFormEntity(nameValuePairs));
 			HttpResponse response = httpclient.execute(httppost);
 			HttpEntity entity = response.getEntity();
 			is = entity.getContent();
@@ -52,7 +47,7 @@ public class JsonParserp {
 			Log.e("log_tag", "Error in http connection "+e.toString());
 		}
 
-		//convert response that we receive from the php file into a String()
+
 		try{
 
 
@@ -68,9 +63,9 @@ public class JsonParserp {
 			Log.e("log_tag", "Error converting result "+e.toString());
 		}
 
-		// try parse the string to a Json object
+
 		try {
-			//json_data = new JSONObject(result);
+
 			jArray = new JSONArray(result);
 
 
@@ -78,16 +73,16 @@ public class JsonParserp {
 			Log.e("JSON Parser", "Error parsing data " + e.toString());
 		}
 
-		// return Json String
+
 		return jArray;
 
 	}
 
     public JSONObject getJSONFromUrl2(String url) {
 
-        // Making HTTP request
+
         try {
-            // defaultHttpClient
+
             DefaultHttpClient httpClient = new DefaultHttpClient();
             HttpPost httpPost = new HttpPost(url);
 
@@ -102,7 +97,6 @@ public class JsonParserp {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         try {
             BufferedReader reader = new BufferedReader(new InputStreamReader(
                     is, "iso-8859-1"), 8);

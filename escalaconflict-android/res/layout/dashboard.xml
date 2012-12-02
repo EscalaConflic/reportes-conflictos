@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="#ffffffff"
-    android:orientation="vertical">
+    android:orientation="vertical" >
 
     <Button
         android:id="@+id/reporteBtn"
@@ -13,7 +13,7 @@
         android:layout_marginTop="120dp"
         android:layout_toRightOf="@+id/tortasBtn"
         android:background="@drawable/fbicon"
-        android:text="reporte"/>
+        android:text="reporte" />
 
     <Button
         android:id="@+id/mapaconflictosBtn"

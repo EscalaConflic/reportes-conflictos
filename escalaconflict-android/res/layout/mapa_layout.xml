@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout   xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+  >     
 <com.google.android.maps.MapView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+    
     android:id="@+id/mapview"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:clickable="true"
     android:apiKey="08_r1gb2t8ukqYZE6U11uSwncPuq6jaqXgybSxw"
 />
+<Button android:layout_height="50dp"
+    android:layout_width="120dp"
+    android:layout_marginTop="20dp"
+    android:layout_alignParentRight="true"
+    android:background="@drawable/btnlugar"
+    android:id="@+id/reportBtn" />
+<Button android:layout_height="50dp"
+    android:layout_width="120dp"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/btnaqui"
+    android:id="@+id/gpsBtn" 
+    
+    />    
+</RelativeLayout>
 

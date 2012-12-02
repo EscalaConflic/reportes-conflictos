@@ -41,11 +41,11 @@ public class dashboard extends Activity implements View.OnClickListener {
 		// TODO Auto-generated method stub
 		switch(view.getId()){
 		case R.id.reporteBtn:
-			Intent reportarIntent = new Intent(dashboard.this, ConflictoDetallado.class);
+			Intent reportarIntent = new Intent(dashboard.this, reporte.class);
 			startActivity(reportarIntent);
 			break;
 		case R.id.tortasBtn:
-			Intent verTortasIntent = new Intent(dashboard.this, ConflictoDetallado.class);
+			Intent verTortasIntent = new Intent(dashboard.this, ReportesTortas.class);
 			startActivity(verTortasIntent);
 			break;
 		case R.id.mapaconflictosBtn:
