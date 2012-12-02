@@ -25,7 +25,7 @@ return array(
 			'class'=>'system.gii.GiiModule',
 			'password'=>'gii',
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
-			'ipFilters'=>array('127.0.0.1','::1'),
+			'ipFilters'=>array('127.0.0.1','::1','192.168.43.193'),
 		),	
 	),
 
@@ -52,10 +52,10 @@ return array(
 		// uncomment the following to use a MySQL database
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=conflictDB',
+			'connectionString' => 'mysql:host=localhost;dbname=esentia3_conflict',
 			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => 'root',
+			'username' => 'esentia3_rootec',
+			'password' => '8LCEvuxmcDZN',
 			'charset' => 'utf8',
                         'tablePrefix'=>'tbl',
 		),
@@ -79,6 +79,9 @@ return array(
 				*/
 			),
 		),
+                'maps'=>array(
+                    'class'=>'GmapConflict',
+                ),
 	),
 
 	// application-level parameters that can be accessed

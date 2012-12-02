@@ -13,6 +13,7 @@ body
 	margin-bottom: 5px;
 	background: white;
 	border: 1px solid #C9E0ED;
+	background: url('../images/fondo_body.jpg') repeat-x scroll 0 100px #fff;
 }
 
 #header
@@ -20,11 +21,22 @@ body
 	margin: 0;
 	padding: 0;
 	border-top: 3px solid #C9E0ED;
+        background: url('../images/bg_head.png');
+        height: 165px;
 }
-
+#header h1{
+	float: right;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    padding: 46px 286px 0 0;
+    color: #fff;
+}
 #content
 {
-    padding: 20px;
+    padding: 0;/* 0 0 48px;*/
+    float: left;
+    width: 690px;
 }
 
 #sidebar
@@ -45,6 +57,12 @@ body
 {
 	padding: 10px 20px;
 	font-size: 200%;
+}
+#mundo{
+left: 700px;
+    position: relative;
+    top: -107px;
+    z-index: 1000;
 }
 
 #mainmenu
@@ -226,4 +244,42 @@ div.search-form
 .operations li a:hover
 {
 	background: #80CFFF;
+}
+#menu_left{
+    width: 255px;
+    display: inline-block;
+    padding: 0;
+    margin: 10px 0 0 0;
+    list-style: none;
+    background: url('../images/bk_menu.png') no-repeat scroll right 50% transparent;
+}
+#menu_left li{
+    padding: 0;
+    margin: 0;
+}
+#menu_left li a.link{
+    display: block;
+    width: 100%;
+    height: 92px;
+}
+#menu_left li a#conflicto_link{
+    background: url('../images/reportar_link.png') no-repeat scroll 0 50% transparent;
+}
+#menu_left li a#reportes_link{
+    background: url('../images/reportes_link.png') no-repeat scroll 0 50% transparent;
+}
+#menu_left li a#mapas_link{
+    background: url('../images/mapas_link.png') no-repeat scroll 0 50% transparent;
+}
+#menu_left li a#graficas_link{
+    background: url('../images/graficas_link.png') no-repeat scroll 0 50% transparent;
+}
+#body_right{
+    margin: 10px 0 0 0;
+float: right;
+width: 690px;
+display: inline-block;
+}
+#footer p{
+    text-align: right;
 }

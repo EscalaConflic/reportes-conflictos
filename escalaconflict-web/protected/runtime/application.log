@@ -548,3 +548,2246 @@ Stack trace:
 REQUEST_URI=/escalaconflict/index.php/campoConflicto/getCampos?term=con
 in /opt/lampp/htdocs/escalaconflict/protected/controllers/CampoConflictoController.php (184)
 in /opt/lampp/htdocs/escalaconflict/index.php (13)
+2012/12/02 04:08:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "mapCOnflic".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('mapCOnflic')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('mapCOnflic')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('conflicto/mapCO...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/conflicto/mapCOnflic
+---
+2012/12/02 04:09:21 [error] [exception.CException] exception 'CException' with message 'ConflictoController cannot find the requested view "mapConflict".' in /usr/share/yii/framework/web/CController.php:879
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(783): CController->renderPartial('mapConflict', NULL, true)
+#1 /opt/lampp/htdocs/escalaconflict/protected/controllers/ConflictoController.php(39): CController->render('mapConflict')
+#2 /usr/share/yii/framework/web/actions/CInlineAction.php(50): ConflictoController->actionMapConflict()
+#3 /usr/share/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /usr/share/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /usr/share/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('mapConflict')
+#7 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('conflicto/mapCo...')
+#8 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/escalaconflict/conflicto/mapConflict
+---
+2012/12/02 04:17:05 [error] [php] include(EGMap.php) [<a href='function.include'>function.include</a>]: failed to open stream: No existe el fichero o el directorio (/usr/share/yii/framework/YiiBase.php:423)
+Stack trace:
+#0 /opt/lampp/htdocs/escalaconflict/protected/controllers/ConflictoController.php(38): spl_autoload_call()
+#1 /usr/share/yii/framework/web/actions/CInlineAction.php(50): ConflictoController->actionMapConflict()
+#2 /usr/share/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /usr/share/yii/framework/web/CController.php(287): ConflictoController->runAction()
+#4 /usr/share/yii/framework/web/CController.php(266): ConflictoController->runActionWithFilters()
+#5 /usr/share/yii/framework/web/CWebApplication.php(283): ConflictoController->run()
+#6 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/escalaconflict/index.php(13): CWebApplication->run()
+REQUEST_URI=/escalaconflict/conflicto/mapConflict
+in /opt/lampp/htdocs/escalaconflict/protected/controllers/ConflictoController.php (38)
+in /opt/lampp/htdocs/escalaconflict/index.php (13)
+2012/12/02 04:18:16 [error] [exception.CException] exception 'CException' with message 'ConflictoController cannot find the requested view "".' in /usr/share/yii/framework/web/CController.php:879
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(783): CController->renderPartial(NULL, NULL, true)
+#1 /opt/lampp/htdocs/escalaconflict/protected/controllers/ConflictoController.php(48): CController->render(NULL)
+#2 /usr/share/yii/framework/web/actions/CInlineAction.php(50): ConflictoController->actionMapConflict()
+#3 /usr/share/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /usr/share/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /usr/share/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('mapConflict')
+#7 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('conflicto/mapCo...')
+#8 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/escalaconflict/conflicto/mapConflict
+---
+2012/12/02 04:18:23 [error] [exception.CException] exception 'CException' with message 'ConflictoController cannot find the requested view "".' in /usr/share/yii/framework/web/CController.php:879
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(783): CController->renderPartial(NULL, NULL, true)
+#1 /opt/lampp/htdocs/escalaconflict/protected/controllers/ConflictoController.php(37): CController->render(NULL)
+#2 /usr/share/yii/framework/web/actions/CInlineAction.php(50): ConflictoController->actionMapConflict()
+#3 /usr/share/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /usr/share/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /usr/share/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('mapConflict')
+#7 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('conflicto/mapCo...')
+#8 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/escalaconflict/conflicto/mapConflict
+---
+2012/12/02 04:18:23 [error] [exception.CException] exception 'CException' with message 'ConflictoController cannot find the requested view "".' in /usr/share/yii/framework/web/CController.php:879
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(783): CController->renderPartial(NULL, NULL, true)
+#1 /opt/lampp/htdocs/escalaconflict/protected/controllers/ConflictoController.php(37): CController->render(NULL)
+#2 /usr/share/yii/framework/web/actions/CInlineAction.php(50): ConflictoController->actionMapConflict()
+#3 /usr/share/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /usr/share/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /usr/share/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('mapConflict')
+#7 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('conflicto/mapCo...')
+#8 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/escalaconflict/conflicto/mapConflict
+---
+2012/12/02 05:28:07 [error] [php] Undefined variable: icon (/opt/lampp/htdocs/escalaconflict/protected/components/GmapConflict.php:19)
+Stack trace:
+#0 /usr/share/yii/framework/web/CBaseController.php(96): ConflictoController->renderInternal()
+#1 /usr/share/yii/framework/web/CController.php(870): ConflictoController->renderFile()
+#2 /usr/share/yii/framework/web/CController.php(783): ConflictoController->renderPartial()
+#3 /opt/lampp/htdocs/escalaconflict/protected/controllers/ConflictoController.php(49): ConflictoController->render()
+#4 /usr/share/yii/framework/web/actions/CInlineAction.php(50): ConflictoController->actionMapConflict()
+#5 /usr/share/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#6 /usr/share/yii/framework/web/CController.php(287): ConflictoController->runAction()
+#7 /usr/share/yii/framework/web/CController.php(266): ConflictoController->runActionWithFilters()
+#8 /usr/share/yii/framework/web/CWebApplication.php(283): ConflictoController->run()
+#9 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#10 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/escalaconflict/index.php(13): CWebApplication->run()
+REQUEST_URI=/escalaconflict/conflicto/mapConflict
+in /opt/lampp/htdocs/escalaconflict/protected/components/GmapConflict.php (19)
+in /opt/lampp/htdocs/escalaconflict/protected/views/conflicto/mapConflict.php (3)
+in /opt/lampp/htdocs/escalaconflict/protected/controllers/ConflictoController.php (49)
+2012/12/02 08:04:37 [error] [php] Undefined variable: tipoC (/opt/lampp/htdocs/escalaconflict/protected/controllers/ConflictoController.php:74)
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(287): ConflictoController->runAction()
+#1 /usr/share/yii/framework/web/CController.php(266): ConflictoController->runActionWithFilters()
+#2 /usr/share/yii/framework/web/CWebApplication.php(283): ConflictoController->run()
+#3 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /opt/lampp/htdocs/escalaconflict/index.php(13): CWebApplication->run()
+REQUEST_URI=/escalaconflict/conflicto/getDemandante
+in /opt/lampp/htdocs/escalaconflict/protected/controllers/ConflictoController.php (74)
+in /opt/lampp/htdocs/escalaconflict/index.php (13)
+2012/12/02 09:36:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "graficos".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('graficos')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('graficos')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/graficos')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/site/graficos
+HTTP_REFERER=http://192.168.0.104/escalaconflict/index.php/site/index
+---
+2012/12/02 09:36:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "graficos".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('graficos')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('graficos')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/graficos')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/site/graficos
+HTTP_REFERER=http://192.168.0.104/escalaconflict/index.php/site/graficos
+---
+2012/12/02 09:39:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "extjs/ext-all.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('extjs/ext-all.j...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/extjs/ext-all.js
+HTTP_REFERER=http://192.168.0.104/escalaconflict/index.php/graficos/index
+---
+2012/12/02 09:40:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asserts/extjs/ext-all.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('asserts/extjs/e...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/asserts/extjs/ext-all.js
+HTTP_REFERER=http://192.168.0.104/escalaconflict/index.php/graficos/index
+---
+2012/12/02 09:40:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asserts/extjs/ext-all.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('asserts/extjs/e...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/asserts/extjs/ext-all.js
+---
+2012/12/02 09:40:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asserts/extjs/ext-all.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('asserts/extjs/e...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/asserts/extjs/ext-all.js
+---
+2012/12/02 09:40:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asserts/extjs/ext-all.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('asserts/extjs/e...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/asserts/extjs/ext-all.js
+---
+2012/12/02 09:40:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/extjs/ext-all.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/extjs/ex...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/extjs/ext-all.js
+---
+2012/12/02 09:40:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/extjs/ext-all.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/extjs/ex...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/extjs/ext-all.js
+HTTP_REFERER=http://192.168.0.104/escalaconflict/index.php/graficos/index
+---
+2012/12/02 09:41:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/extjs/ext-all.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/extjs/ex...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/extjs/ext-all.js
+---
+2012/12/02 09:41:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/extjs/ext-all.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/extjs/ex...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/extjs/ext-all.js
+---
+2012/12/02 10:19:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "demandante".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('demandante')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('demandante')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('graficos/demand...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/graficos/demandante
+---
+2012/12/02 10:19:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "demandante".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('demandante')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('demandante')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('graficos/demand...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/graficos/demandante
+---
+2012/12/02 10:19:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "demandante".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('demandante')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('demandante')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('graficos/demand...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/graficos/demandante
+---
+2012/12/02 10:20:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "demandante".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('demandante')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('demandante')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('graficos/demand...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/graficos/demandante
+---
+2012/12/02 10:23:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "demandante".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('demandante')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('demandante')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('graficos/demand...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/graficos/demandante
+---
+2012/12/02 10:23:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "demandante".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('demandante')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('demandante')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('graficos/demand...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/graficos/demandante
+---
+2012/12/02 10:23:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "demandante".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('demandante')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('demandante')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('graficos/demand...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/graficos/demandante
+---
+2012/12/02 10:23:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "demandante".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('demandante')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('demandante')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('graficos/demand...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/graficos/demandante
+---
+2012/12/02 10:23:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "demandante".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('demandante')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('demandante')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('graficos/demand...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/graficos/demandante
+---
+2012/12/02 10:23:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "demandante".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('demandante')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('demandante')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('graficos/demand...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/graficos/demandante
+---
+2012/12/02 10:23:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "demandante".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('demandante')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('demandante')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('graficos/demand...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/graficos/demandante
+---
+2012/12/02 10:23:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "demandante".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('demandante')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('demandante')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('graficos/demand...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/graficos/demandante
+---
+2012/12/02 10:24:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "demandante".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('demandante')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('demandante')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('graficos/demand...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/graficos/demandante
+---
+2012/12/02 10:24:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "demandante".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('demandante')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('demandante')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('graficos/demand...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/graficos/demandante
+---
+2012/12/02 10:24:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "demandante".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('demandante')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('demandante')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('graficos/demand...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/graficos/demandante
+---
+2012/12/02 10:24:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "demandante".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('demandante')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('demandante')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('graficos/demand...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/graficos/demandante
+---
+2012/12/02 10:24:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "demandante".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('demandante')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('demandante')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('graficos/demand...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/graficos/demandante
+---
+2012/12/02 10:24:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "demandante".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('demandante')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('demandante')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('graficos/demand...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/graficos/demandante
+---
+2012/12/02 10:24:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "demandante".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('demandante')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('demandante')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('graficos/demand...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/graficos/demandante
+---
+2012/12/02 10:24:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "demandante".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('demandante')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('demandante')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('graficos/demand...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/graficos/demandante
+---
+2012/12/02 10:24:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "demandante".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('demandante')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('demandante')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('graficos/demand...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/graficos/demandante
+---
+2012/12/02 10:24:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "demandante".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('demandante')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('demandante')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('graficos/demand...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/graficos/demandante
+---
+2012/12/02 10:27:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "demandante".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('demandante')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('demandante')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('graficos/demand...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/graficos/demandante
+---
+2012/12/02 12:40:03 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /usr/share/yii/framework/gii/GiiModule.php:169
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(264): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('gii')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/gii
+---
+2012/12/02 12:40:07 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /usr/share/yii/framework/gii/GiiModule.php:169
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(264): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('gii')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/gii
+---
+2012/12/02 13:34:30 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "renderPartial".' in /usr/share/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/main.php(24): CComponent->__call('renderPartial', Array)
+#1 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/main.php(24): CWebApplication->renderPartial('site/menu')
+#2 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#3 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#4 /usr/share/yii/framework/web/widgets/CContentDecorator.php(77): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#5 /usr/share/yii/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#6 /usr/share/yii/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#7 /usr/share/yii/framework/web/CBaseController.php(207): COutputProcessor->run()
+#8 /usr/share/yii/framework/web/CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#9 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/column1.php(6): CBaseController->endContent()
+#10 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#11 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#12 /usr/share/yii/framework/web/CController.php(785): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#13 /opt/lampp/htdocs/escalaconflict/protected/controllers/SiteController.php(32): CController->render('index')
+#14 /usr/share/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#15 /usr/share/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#16 /usr/share/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#17 /usr/share/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('index')
+#19 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/index')
+#20 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/escalaconflict/index.php/site/index
+HTTP_REFERER=http://192.168.0.104/escalaconflict/index.php/graficos/index
+---
+2012/12/02 13:42:09 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "header".' in /usr/share/yii/framework/web/CController.php:879
+Stack trace:
+#0 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/main.php(24): CController->renderPartial('header')
+#1 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#2 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#3 /usr/share/yii/framework/web/widgets/CContentDecorator.php(77): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#4 /usr/share/yii/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#5 /usr/share/yii/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#6 /usr/share/yii/framework/web/CBaseController.php(207): COutputProcessor->run()
+#7 /usr/share/yii/framework/web/CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#8 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/column1.php(6): CBaseController->endContent()
+#9 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#10 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#11 /usr/share/yii/framework/web/CController.php(785): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#12 /opt/lampp/htdocs/escalaconflict/protected/controllers/SiteController.php(32): CController->render('index')
+#13 /usr/share/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#14 /usr/share/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /usr/share/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#16 /usr/share/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('')
+#18 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#19 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#20 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/escalaconflict/
+---
+2012/12/02 13:42:22 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "header".' in /usr/share/yii/framework/web/CController.php:879
+Stack trace:
+#0 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/main.php(24): CController->renderPartial('header')
+#1 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#2 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#3 /usr/share/yii/framework/web/widgets/CContentDecorator.php(77): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#4 /usr/share/yii/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#5 /usr/share/yii/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#6 /usr/share/yii/framework/web/CBaseController.php(207): COutputProcessor->run()
+#7 /usr/share/yii/framework/web/CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#8 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/column1.php(6): CBaseController->endContent()
+#9 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#10 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#11 /usr/share/yii/framework/web/CController.php(785): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#12 /opt/lampp/htdocs/escalaconflict/protected/controllers/SiteController.php(32): CController->render('index')
+#13 /usr/share/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#14 /usr/share/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /usr/share/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#16 /usr/share/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('')
+#18 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#19 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#20 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/escalaconflict/
+---
+2012/12/02 13:48:44 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "_header".' in /usr/share/yii/framework/web/CController.php:879
+Stack trace:
+#0 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/main.php(24): CController->renderPartial('_header')
+#1 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#2 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#3 /usr/share/yii/framework/web/widgets/CContentDecorator.php(77): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#4 /usr/share/yii/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#5 /usr/share/yii/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#6 /usr/share/yii/framework/web/CBaseController.php(207): COutputProcessor->run()
+#7 /usr/share/yii/framework/web/CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#8 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/column1.php(6): CBaseController->endContent()
+#9 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#10 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#11 /usr/share/yii/framework/web/CController.php(785): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#12 /opt/lampp/htdocs/escalaconflict/protected/controllers/SiteController.php(32): CController->render('index')
+#13 /usr/share/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#14 /usr/share/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /usr/share/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#16 /usr/share/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('')
+#18 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#19 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#20 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/escalaconflict/
+---
+2012/12/02 13:49:04 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "layouts/_header".' in /usr/share/yii/framework/web/CController.php:879
+Stack trace:
+#0 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/main.php(24): CController->renderPartial('layouts/_header')
+#1 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#2 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#3 /usr/share/yii/framework/web/widgets/CContentDecorator.php(77): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#4 /usr/share/yii/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#5 /usr/share/yii/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#6 /usr/share/yii/framework/web/CBaseController.php(207): COutputProcessor->run()
+#7 /usr/share/yii/framework/web/CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#8 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/column1.php(6): CBaseController->endContent()
+#9 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#10 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#11 /usr/share/yii/framework/web/CController.php(785): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#12 /opt/lampp/htdocs/escalaconflict/protected/controllers/SiteController.php(32): CController->render('index')
+#13 /usr/share/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#14 /usr/share/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /usr/share/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#16 /usr/share/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('')
+#18 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#19 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#20 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/escalaconflict/
+---
+2012/12/02 13:49:05 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "layouts/_header".' in /usr/share/yii/framework/web/CController.php:879
+Stack trace:
+#0 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/main.php(24): CController->renderPartial('layouts/_header')
+#1 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#2 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#3 /usr/share/yii/framework/web/widgets/CContentDecorator.php(77): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#4 /usr/share/yii/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#5 /usr/share/yii/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#6 /usr/share/yii/framework/web/CBaseController.php(207): COutputProcessor->run()
+#7 /usr/share/yii/framework/web/CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#8 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/column1.php(6): CBaseController->endContent()
+#9 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#10 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#11 /usr/share/yii/framework/web/CController.php(785): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#12 /opt/lampp/htdocs/escalaconflict/protected/controllers/SiteController.php(32): CController->render('index')
+#13 /usr/share/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#14 /usr/share/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /usr/share/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#16 /usr/share/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('')
+#18 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#19 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#20 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/escalaconflict/
+---
+2012/12/02 14:39:08 [error] [exception.CException] exception 'CException' with message 'GraficosController cannot find the requested view "menu".' in /usr/share/yii/framework/web/CController.php:879
+Stack trace:
+#0 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/main.php(49): CController->renderPartial('menu')
+#1 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#2 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#3 /usr/share/yii/framework/web/widgets/CContentDecorator.php(77): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#4 /usr/share/yii/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate('<div class="spa...')
+#5 /usr/share/yii/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput('<div class="spa...')
+#6 /usr/share/yii/framework/web/CBaseController.php(207): COutputProcessor->run()
+#7 /usr/share/yii/framework/web/CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#8 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/column2.php(22): CBaseController->endContent()
+#9 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#10 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#11 /usr/share/yii/framework/web/CController.php(785): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#12 /opt/lampp/htdocs/escalaconflict/protected/controllers/GraficosController.php(13): CController->render('index')
+#13 /usr/share/yii/framework/web/actions/CInlineAction.php(50): GraficosController->actionIndex()
+#14 /usr/share/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /usr/share/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#16 /usr/share/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('index')
+#18 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('graficos/index')
+#19 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#20 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/escalaconflict/index.php/graficos/index
+HTTP_REFERER=http://192.168.0.104/escalaconflict/index.php/site/contact
+---
+2012/12/02 14:39:12 [error] [exception.CException] exception 'CException' with message 'ConflictoController cannot find the requested view "menu".' in /usr/share/yii/framework/web/CController.php:879
+Stack trace:
+#0 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/main.php(49): CController->renderPartial('menu')
+#1 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#2 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#3 /usr/share/yii/framework/web/widgets/CContentDecorator.php(77): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#4 /usr/share/yii/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate('<div class="spa...')
+#5 /usr/share/yii/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput('<div class="spa...')
+#6 /usr/share/yii/framework/web/CBaseController.php(207): COutputProcessor->run()
+#7 /usr/share/yii/framework/web/CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#8 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/column2.php(22): CBaseController->endContent()
+#9 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#10 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#11 /usr/share/yii/framework/web/CController.php(785): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#12 /opt/lampp/htdocs/escalaconflict/protected/controllers/ConflictoController.php(128): CController->render('index', Array)
+#13 /usr/share/yii/framework/web/actions/CInlineAction.php(50): ConflictoController->actionIndex()
+#14 /usr/share/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /usr/share/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 /usr/share/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#17 /usr/share/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#18 /usr/share/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 /usr/share/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 /usr/share/yii/framework/web/CController.php(292): CFilterChain->run()
+#21 /usr/share/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('index')
+#23 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('conflicto/index')
+#24 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#25 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/escalaconflict/index.php/conflicto/index
+HTTP_REFERER=http://192.168.0.104/escalaconflict/index.php/site/contact
+---
+2012/12/02 15:22:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "logoescon.png".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('logoescon.png')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/logoescon.png
+---
+2012/12/02 15:22:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "logoescon.png".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('logoescon.png')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/logoescon.png
+---
+2012/12/02 15:22:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "logoescon.png".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('logoescon.png')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/logoescon.png
+---
+2012/12/02 15:22:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "logoescon.png".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('logoescon.png')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/logoescon.png
+---
+2012/12/02 15:28:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/image/bg_head".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('css/image/bg_he...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/css/image/bg_head
+HTTP_REFERER=http://192.168.2.100/escalaconflict/
+---
+2012/12/02 15:28:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/image/bg_head".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('css/image/bg_he...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/css/image/bg_head
+---
+2012/12/02 15:28:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/image/bg_head".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('css/image/bg_he...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/css/image/bg_head
+---
+2012/12/02 15:28:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/bg_head".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('css/images/bg_h...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/css/images/bg_head
+---
+2012/12/02 15:28:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/bg_head".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('css/images/bg_h...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/css/images/bg_head
+---
+2012/12/02 15:28:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/bg_head.png".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('css/images/bg_h...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/css/images/bg_head.png
+---
+2012/12/02 15:28:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/bg_head.png".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('css/images/bg_h...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/css/images/bg_head.png
+---
+2012/12/02 15:29:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/bg_head.png".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('css/images/bg_h...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/css/images/bg_head.png
+---
+2012/12/02 15:29:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/bg_head.png".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('css/images/bg_h...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/css/images/bg_head.png
+---
+2012/12/02 15:39:27 [error] [php] Undefined variable: nuevos (/opt/lampp/htdocs/escalaconflict/protected/views/site/index.php:46)
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(870): SiteController->renderFile()
+#1 /usr/share/yii/framework/web/CController.php(783): SiteController->renderPartial()
+#2 /opt/lampp/htdocs/escalaconflict/protected/controllers/SiteController.php(32): SiteController->render()
+#3 /usr/share/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#4 /usr/share/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /usr/share/yii/framework/web/CController.php(287): SiteController->runAction()
+#6 /usr/share/yii/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#7 /usr/share/yii/framework/web/CWebApplication.php(283): SiteController->run()
+#8 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#9 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/escalaconflict/index.php(13): CWebApplication->run()
+REQUEST_URI=/escalaconflict/
+in /opt/lampp/htdocs/escalaconflict/protected/views/site/index.php (46)
+in /opt/lampp/htdocs/escalaconflict/protected/controllers/SiteController.php (32)
+in /opt/lampp/htdocs/escalaconflict/index.php (13)
+2012/12/02 15:59:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+---
+2012/12/02 15:59:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+---
+2012/12/02 15:59:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+---
+2012/12/02 15:59:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+HTTP_REFERER=http://192.168.2.100/escalaconflict/
+---
+2012/12/02 16:00:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+---
+2012/12/02 16:01:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+---
+2012/12/02 16:01:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+---
+2012/12/02 16:01:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+---
+2012/12/02 16:01:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+---
+2012/12/02 16:03:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+HTTP_REFERER=http://192.168.2.100/escalaconflict/
+---
+2012/12/02 16:04:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+HTTP_REFERER=http://192.168.2.100/escalaconflict/
+---
+2012/12/02 16:04:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+HTTP_REFERER=http://192.168.2.100/escalaconflict/
+---
+2012/12/02 16:05:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+HTTP_REFERER=http://192.168.2.100/escalaconflict/
+---
+2012/12/02 16:06:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+HTTP_REFERER=http://192.168.2.100/escalaconflict/
+---
+2012/12/02 16:06:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+---
+2012/12/02 16:07:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+---
+2012/12/02 16:07:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+---
+2012/12/02 16:08:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+---
+2012/12/02 16:08:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+HTTP_REFERER=http://192.168.2.100/escalaconflict/
+---
+2012/12/02 16:08:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+HTTP_REFERER=http://192.168.2.100/escalaconflict/
+---
+2012/12/02 16:08:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+---
+2012/12/02 16:08:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+---
+2012/12/02 16:08:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+---
+2012/12/02 16:08:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+HTTP_REFERER=http://192.168.2.100/escalaconflict/
+---
+2012/12/02 16:08:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+HTTP_REFERER=http://192.168.2.100/escalaconflict/
+---
+2012/12/02 16:08:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+---
+2012/12/02 16:08:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+HTTP_REFERER=http://192.168.2.100/escalaconflict/
+---
+2012/12/02 16:08:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+---
+2012/12/02 16:08:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+---
+2012/12/02 16:09:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+---
+2012/12/02 16:09:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+---
+2012/12/02 16:09:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+---
+2012/12/02 16:09:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+---
+2012/12/02 16:10:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+HTTP_REFERER=http://192.168.2.100/escalaconflict/
+---
+2012/12/02 16:11:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+---
+2012/12/02 16:12:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+---
+2012/12/02 16:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+HTTP_REFERER=http://192.168.2.100/escalaconflict/
+---
+2012/12/02 16:12:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+---
+2012/12/02 16:12:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/bg_head.png".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('css/images/bg_h...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/css/images/bg_head.png
+---
+2012/12/02 16:12:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+---
+2012/12/02 16:13:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+HTTP_REFERER=http://192.168.2.100/escalaconflict/
+---
+2012/12/02 16:13:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+HTTP_REFERER=http://192.168.2.100/escalaconflict/
+---
+2012/12/02 16:13:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+---
+2012/12/02 16:14:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+---
+2012/12/02 16:15:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+HTTP_REFERER=http://192.168.2.100/escalaconflict/
+---
+2012/12/02 16:15:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+HTTP_REFERER=http://192.168.2.100/escalaconflict/
+---
+2012/12/02 16:15:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+HTTP_REFERER=http://192.168.2.100/escalaconflict/
+---
+2012/12/02 16:18:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+HTTP_REFERER=http://192.168.2.100/escalaconflict/
+---
+2012/12/02 16:18:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery.tools.min.js".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('assets/js/jquer...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/assets/js/jquery.tools.min.js
+HTTP_REFERER=http://192.168.2.100/escalaconflict/
+---
+2012/12/02 16:39:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logoscon.png".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('images/logoscon...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/index.php/images/logoscon.png
+HTTP_REFERER=http://192.168.2.100/escalaconflict/index.php/site/index
+---
+2012/12/02 16:39:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logoscon.png".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('images/logoscon...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/index.php/images/logoscon.png
+HTTP_REFERER=http://192.168.2.100/escalaconflict/index.php/site/index
+---
+2012/12/02 16:39:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logoescon.png".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('images/logoesco...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/index.php/images/logoescon.png
+HTTP_REFERER=http://192.168.2.100/escalaconflict/index.php/site/index
+---
+2012/12/02 16:39:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logoescon.png".' in /usr/share/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('images/logoesco...')
+#1 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/index.php/images/logoescon.png
+HTTP_REFERER=http://192.168.2.100/escalaconflict/index.php/site/index
+---
+2012/12/02 16:40:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('images')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/images/log...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/site/images/logoescon.png
+HTTP_REFERER=http://192.168.2.100/escalaconflict/index.php/site/index
+---
+2012/12/02 16:40:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('images')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/images/log...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/site/images/logoescon.png
+HTTP_REFERER=http://192.168.2.100/escalaconflict/index.php/site/index
+---
+2012/12/02 16:42:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('images')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/images/log...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/site/images/logoescon.png
+HTTP_REFERER=http://192.168.2.100/escalaconflict/index.php/site/page?view=about
+---
+2012/12/02 16:42:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('images')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/images/log...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/site/images/logoescon.png
+HTTP_REFERER=http://192.168.2.100/escalaconflict/index.php/site/index
+---
+2012/12/02 16:43:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('images')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/images/log...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/site/images/logoescon.png
+HTTP_REFERER=http://192.168.2.100/escalaconflict/index.php/site/index
+---
+2012/12/02 16:43:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('images')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/images/inf...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/site/images/info_ico.png
+HTTP_REFERER=http://192.168.2.100/escalaconflict/index.php/site/index
+---
+2012/12/02 16:43:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('images')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/images/twi...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/site/images/twitter_ico.png
+HTTP_REFERER=http://192.168.2.100/escalaconflict/index.php/site/index
+---
+2012/12/02 16:43:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('images')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/images/fac...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/site/images/facebook_ico.png
+HTTP_REFERER=http://192.168.2.100/escalaconflict/index.php/site/index
+---
+2012/12/02 16:43:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('images')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/images/fac...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/site/images/facebook_ico.png
+HTTP_REFERER=http://192.168.2.100/escalaconflict/index.php/site/index
+---
+2012/12/02 16:44:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('images')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/images/inf...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/site/images/info_ico.png
+HTTP_REFERER=http://192.168.2.100/escalaconflict/index.php/site/index
+---
+2012/12/02 16:44:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('images')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/images/log...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/site/images/logoescon.png
+HTTP_REFERER=http://192.168.2.100/escalaconflict/index.php/site/index
+---
+2012/12/02 16:44:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('images')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/images/twi...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/site/images/twitter_ico.png
+HTTP_REFERER=http://192.168.2.100/escalaconflict/index.php/site/index
+---
+2012/12/02 16:44:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('images')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/images/inf...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/site/images/info_ico.png
+HTTP_REFERER=http://192.168.2.100/escalaconflict/index.php/site/index
+---
+2012/12/02 16:44:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('images')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/images/twi...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/site/images/twitter_ico.png
+HTTP_REFERER=http://192.168.2.100/escalaconflict/index.php/site/index
+---
+2012/12/02 16:44:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('images')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/images/log...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/site/images/logoescon.png
+HTTP_REFERER=http://192.168.2.100/escalaconflict/index.php/site/index
+---
+2012/12/02 16:44:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('images')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/images/fac...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/site/images/facebook_ico.png
+HTTP_REFERER=http://192.168.2.100/escalaconflict/index.php/site/index
+---
+2012/12/02 16:44:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('images')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/images/twi...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/site/images/twitter_ico.png
+HTTP_REFERER=http://192.168.2.100/escalaconflict/index.php/site/index
+---
+2012/12/02 16:44:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('images')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/images/fac...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/site/images/facebook_ico.png
+HTTP_REFERER=http://192.168.2.100/escalaconflict/index.php/site/index
+---
+2012/12/02 16:44:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('images')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/images/inf...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/site/images/info_ico.png
+HTTP_REFERER=http://192.168.2.100/escalaconflict/index.php/site/index
+---
+2012/12/02 16:45:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('images')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/images/twi...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/site/images/twitter_ico.png
+HTTP_REFERER=http://192.168.2.100/escalaconflict/index.php/site/index
+---
+2012/12/02 16:45:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('images')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/images/inf...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/site/images/info_ico.png
+HTTP_REFERER=http://192.168.2.100/escalaconflict/index.php/site/index
+---
+2012/12/02 16:45:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /usr/share/yii/framework/web/CController.php:484
+Stack trace:
+#0 /usr/share/yii/framework/web/CController.php(271): CController->missingAction('images')
+#1 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/images/fac...')
+#3 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/site/images/facebook_ico.png
+HTTP_REFERER=http://192.168.2.100/escalaconflict/index.php/site/index
+---
+2012/12/02 16:50:12 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "urlBase".' in /usr/share/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/main.php(55): CComponent->__call('urlBase', Array)
+#1 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/main.php(55): CWebApplication->urlBase()
+#2 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#3 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#4 /usr/share/yii/framework/web/widgets/CContentDecorator.php(77): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#5 /usr/share/yii/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#6 /usr/share/yii/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#7 /usr/share/yii/framework/web/CBaseController.php(207): COutputProcessor->run()
+#8 /usr/share/yii/framework/web/CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#9 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/column1.php(6): CBaseController->endContent()
+#10 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#11 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#12 /usr/share/yii/framework/web/CController.php(785): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#13 /opt/lampp/htdocs/escalaconflict/protected/controllers/SiteController.php(32): CController->render('index')
+#14 /usr/share/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#15 /usr/share/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#16 /usr/share/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#17 /usr/share/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('index')
+#19 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/index')
+#20 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/escalaconflict/index.php/site/index
+HTTP_REFERER=http://192.168.2.100/escalaconflict/
+---
+2012/12/02 16:51:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "index" was not found.' in /usr/share/yii/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /usr/share/yii/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('index')
+#1 /usr/share/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /usr/share/yii/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /usr/share/yii/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /usr/share/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('page')
+#6 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/page')
+#7 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/escalaconflict/site/page
+HTTP_REFERER=http://192.168.2.100/escalaconflict/index.php/site/index
+---
+2012/12/02 16:51:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "index" was not found.' in /usr/share/yii/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /usr/share/yii/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('index')
+#1 /usr/share/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /usr/share/yii/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /usr/share/yii/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /usr/share/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('page')
+#6 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/page/about')
+#7 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/escalaconflict/site/page/about
+HTTP_REFERER=http://192.168.2.100/escalaconflict/index.php/site/index
+---
+2012/12/02 16:55:08 [error] [exception.CException] exception 'CException' with message 'GraficosController cannot find the requested view "menu".' in /usr/share/yii/framework/web/CController.php:879
+Stack trace:
+#0 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/main.php(46): CController->renderPartial('menu')
+#1 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#2 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#3 /usr/share/yii/framework/web/widgets/CContentDecorator.php(77): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#4 /usr/share/yii/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate('<div class="spa...')
+#5 /usr/share/yii/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput('<div class="spa...')
+#6 /usr/share/yii/framework/web/CBaseController.php(207): COutputProcessor->run()
+#7 /usr/share/yii/framework/web/CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#8 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/column2.php(22): CBaseController->endContent()
+#9 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#10 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#11 /usr/share/yii/framework/web/CController.php(785): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#12 /opt/lampp/htdocs/escalaconflict/protected/controllers/GraficosController.php(13): CController->render('index')
+#13 /usr/share/yii/framework/web/actions/CInlineAction.php(50): GraficosController->actionIndex()
+#14 /usr/share/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /usr/share/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#16 /usr/share/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('index')
+#18 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('graficos/index')
+#19 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#20 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/escalaconflict/index.php/graficos/index
+HTTP_REFERER=http://192.168.2.100/escalaconflict/index.php/site/index
+---
+2012/12/02 16:55:16 [error] [exception.CException] exception 'CException' with message 'GraficosController cannot find the requested view "menu".' in /usr/share/yii/framework/web/CController.php:879
+Stack trace:
+#0 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/main.php(46): CController->renderPartial('menu')
+#1 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#2 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#3 /usr/share/yii/framework/web/widgets/CContentDecorator.php(77): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#4 /usr/share/yii/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate('<div class="spa...')
+#5 /usr/share/yii/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput('<div class="spa...')
+#6 /usr/share/yii/framework/web/CBaseController.php(207): COutputProcessor->run()
+#7 /usr/share/yii/framework/web/CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#8 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/column2.php(22): CBaseController->endContent()
+#9 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#10 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#11 /usr/share/yii/framework/web/CController.php(785): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#12 /opt/lampp/htdocs/escalaconflict/protected/controllers/GraficosController.php(13): CController->render('index')
+#13 /usr/share/yii/framework/web/actions/CInlineAction.php(50): GraficosController->actionIndex()
+#14 /usr/share/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /usr/share/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#16 /usr/share/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('index')
+#18 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('graficos/index')
+#19 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#20 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/escalaconflict/index.php/graficos/index
+HTTP_REFERER=http://192.168.2.100/escalaconflict/index.php/site/index
+---
+2012/12/02 16:56:03 [error] [exception.CException] exception 'CException' with message 'GraficosController cannot find the requested view "layouts/menu".' in /usr/share/yii/framework/web/CController.php:879
+Stack trace:
+#0 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/main.php(46): CController->renderPartial('layouts/menu')
+#1 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#2 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#3 /usr/share/yii/framework/web/widgets/CContentDecorator.php(77): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#4 /usr/share/yii/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate('<div class="spa...')
+#5 /usr/share/yii/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput('<div class="spa...')
+#6 /usr/share/yii/framework/web/CBaseController.php(207): COutputProcessor->run()
+#7 /usr/share/yii/framework/web/CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#8 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/column2.php(22): CBaseController->endContent()
+#9 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#10 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#11 /usr/share/yii/framework/web/CController.php(785): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#12 /opt/lampp/htdocs/escalaconflict/protected/controllers/GraficosController.php(13): CController->render('index')
+#13 /usr/share/yii/framework/web/actions/CInlineAction.php(50): GraficosController->actionIndex()
+#14 /usr/share/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /usr/share/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#16 /usr/share/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('index')
+#18 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('graficos/index')
+#19 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#20 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/escalaconflict/index.php/graficos/index
+HTTP_REFERER=http://192.168.2.100/escalaconflict/index.php/site/index
+---
+2012/12/02 16:56:12 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "layouts/menu".' in /usr/share/yii/framework/web/CController.php:879
+Stack trace:
+#0 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/main.php(46): CController->renderPartial('layouts/menu')
+#1 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#2 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#3 /usr/share/yii/framework/web/widgets/CContentDecorator.php(77): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#4 /usr/share/yii/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#5 /usr/share/yii/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#6 /usr/share/yii/framework/web/CBaseController.php(207): COutputProcessor->run()
+#7 /usr/share/yii/framework/web/CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#8 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/column1.php(6): CBaseController->endContent()
+#9 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#10 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#11 /usr/share/yii/framework/web/CController.php(785): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#12 /opt/lampp/htdocs/escalaconflict/protected/controllers/SiteController.php(32): CController->render('index')
+#13 /usr/share/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#14 /usr/share/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /usr/share/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#16 /usr/share/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('')
+#18 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#19 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#20 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/escalaconflict/
+---
+2012/12/02 16:56:12 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "layouts/menu".' in /usr/share/yii/framework/web/CController.php:879
+Stack trace:
+#0 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/main.php(46): CController->renderPartial('layouts/menu')
+#1 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#2 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#3 /usr/share/yii/framework/web/widgets/CContentDecorator.php(77): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#4 /usr/share/yii/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#5 /usr/share/yii/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#6 /usr/share/yii/framework/web/CBaseController.php(207): COutputProcessor->run()
+#7 /usr/share/yii/framework/web/CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#8 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/column1.php(6): CBaseController->endContent()
+#9 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#10 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#11 /usr/share/yii/framework/web/CController.php(785): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#12 /opt/lampp/htdocs/escalaconflict/protected/controllers/SiteController.php(32): CController->render('index')
+#13 /usr/share/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#14 /usr/share/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /usr/share/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#16 /usr/share/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('')
+#18 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#19 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#20 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/escalaconflict/
+---
+2012/12/02 16:56:23 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "layouts/menu.php".' in /usr/share/yii/framework/web/CController.php:879
+Stack trace:
+#0 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/main.php(46): CController->renderPartial('layouts/menu.ph...')
+#1 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#2 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#3 /usr/share/yii/framework/web/widgets/CContentDecorator.php(77): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#4 /usr/share/yii/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#5 /usr/share/yii/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#6 /usr/share/yii/framework/web/CBaseController.php(207): COutputProcessor->run()
+#7 /usr/share/yii/framework/web/CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#8 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/column1.php(6): CBaseController->endContent()
+#9 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#10 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#11 /usr/share/yii/framework/web/CController.php(785): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#12 /opt/lampp/htdocs/escalaconflict/protected/controllers/SiteController.php(32): CController->render('index')
+#13 /usr/share/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#14 /usr/share/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /usr/share/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#16 /usr/share/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('')
+#18 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#19 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#20 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/escalaconflict/
+---
+2012/12/02 16:56:33 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "site/menu".' in /usr/share/yii/framework/web/CController.php:879
+Stack trace:
+#0 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/main.php(46): CController->renderPartial('site/menu')
+#1 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#2 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#3 /usr/share/yii/framework/web/widgets/CContentDecorator.php(77): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#4 /usr/share/yii/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#5 /usr/share/yii/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#6 /usr/share/yii/framework/web/CBaseController.php(207): COutputProcessor->run()
+#7 /usr/share/yii/framework/web/CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#8 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/column1.php(6): CBaseController->endContent()
+#9 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#10 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#11 /usr/share/yii/framework/web/CController.php(785): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#12 /opt/lampp/htdocs/escalaconflict/protected/controllers/SiteController.php(32): CController->render('index')
+#13 /usr/share/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#14 /usr/share/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /usr/share/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#16 /usr/share/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('')
+#18 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#19 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#20 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/escalaconflict/
+---
+2012/12/02 16:57:09 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "site/menu".' in /usr/share/yii/framework/web/CController.php:879
+Stack trace:
+#0 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/main.php(46): CController->renderPartial('site/menu')
+#1 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#2 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#3 /usr/share/yii/framework/web/widgets/CContentDecorator.php(77): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#4 /usr/share/yii/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#5 /usr/share/yii/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#6 /usr/share/yii/framework/web/CBaseController.php(207): COutputProcessor->run()
+#7 /usr/share/yii/framework/web/CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#8 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/column1.php(6): CBaseController->endContent()
+#9 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#10 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#11 /usr/share/yii/framework/web/CController.php(785): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#12 /opt/lampp/htdocs/escalaconflict/protected/controllers/SiteController.php(32): CController->render('index')
+#13 /usr/share/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#14 /usr/share/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /usr/share/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#16 /usr/share/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('')
+#18 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#19 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#20 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/escalaconflict/
+---
+2012/12/02 16:57:09 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "site/menu".' in /usr/share/yii/framework/web/CController.php:879
+Stack trace:
+#0 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/main.php(46): CController->renderPartial('site/menu')
+#1 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#2 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#3 /usr/share/yii/framework/web/widgets/CContentDecorator.php(77): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#4 /usr/share/yii/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#5 /usr/share/yii/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#6 /usr/share/yii/framework/web/CBaseController.php(207): COutputProcessor->run()
+#7 /usr/share/yii/framework/web/CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#8 /opt/lampp/htdocs/escalaconflict/protected/views/layouts/column1.php(6): CBaseController->endContent()
+#9 /usr/share/yii/framework/web/CBaseController.php(127): require('/opt/lampp/htdo...')
+#10 /usr/share/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#11 /usr/share/yii/framework/web/CController.php(785): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#12 /opt/lampp/htdocs/escalaconflict/protected/controllers/SiteController.php(32): CController->render('index')
+#13 /usr/share/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#14 /usr/share/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /usr/share/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#16 /usr/share/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /usr/share/yii/framework/web/CWebApplication.php(283): CController->run('')
+#18 /usr/share/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#19 /usr/share/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#20 /opt/lampp/htdocs/escalaconflict/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/escalaconflict/
+---
+2012/12/02 09:23:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getDemandados".' in /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(271): CController->missingAction('getDemandados')
+#1 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(283): CController->run('getDemandados')
+#2 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('conflicto/getDe...')
+#3 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home3/esentia3/public_html/escalaconflict/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/conflicto/getDemandados
+---
+2012/12/02 09:24:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home3/esentia3/public_html/escalaconflict/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home3/esentia3/public_html/escalaconflict/yii/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /home3/esentia3/public_html/escalaconflict/yii/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CModule.php(388): CDbConnection->init()
+#3 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /home3/esentia3/public_html/escalaconflict/yii/framework/db/ar/CActiveRecord.php(619): CApplication->getDb()
+#5 /home3/esentia3/public_html/escalaconflict/yii/framework/db/ar/CActiveRecord.php(2262): CActiveRecord->getDbConnection()
+#6 /home3/esentia3/public_html/escalaconflict/yii/framework/db/ar/CActiveRecord.php(383): CActiveRecordMetaData->__construct(Object(SectorDemandado))
+#7 /home3/esentia3/public_html/escalaconflict/escalaconflict/protected/models/SectorDemandado.php(24): CActiveRecord::model('SectorDemandado')
+#8 /home3/esentia3/public_html/escalaconflict/escalaconflict/protected/controllers/ConflictoController.php(178): SectorDemandado::model()
+#9 /home3/esentia3/public_html/escalaconflict/yii/framework/web/actions/CInlineAction.php(50): ConflictoController->actionGetDemandado()
+#10 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(292): CFilterChain->run()
+#17 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(283): CController->run('getDemandado')
+#19 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('conflicto/getDe...')
+#20 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /home3/esentia3/public_html/escalaconflict/escalaconflict/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/escalaconflict/conflicto/getDemandado
+---
+2012/12/02 09:24:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home3/esentia3/public_html/escalaconflict/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home3/esentia3/public_html/escalaconflict/yii/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /home3/esentia3/public_html/escalaconflict/yii/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CModule.php(388): CDbConnection->init()
+#3 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /home3/esentia3/public_html/escalaconflict/yii/framework/db/ar/CActiveRecord.php(619): CApplication->getDb()
+#5 /home3/esentia3/public_html/escalaconflict/yii/framework/db/ar/CActiveRecord.php(2262): CActiveRecord->getDbConnection()
+#6 /home3/esentia3/public_html/escalaconflict/yii/framework/db/ar/CActiveRecord.php(383): CActiveRecordMetaData->__construct(Object(SectorDemandado))
+#7 /home3/esentia3/public_html/escalaconflict/escalaconflict/protected/models/SectorDemandado.php(24): CActiveRecord::model('SectorDemandado')
+#8 /home3/esentia3/public_html/escalaconflict/escalaconflict/protected/controllers/ConflictoController.php(178): SectorDemandado::model()
+#9 /home3/esentia3/public_html/escalaconflict/yii/framework/web/actions/CInlineAction.php(50): ConflictoController->actionGetDemandado()
+#10 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(292): CFilterChain->run()
+#17 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(283): CController->run('getDemandado')
+#19 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('conflicto/getDe...')
+#20 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /home3/esentia3/public_html/escalaconflict/escalaconflict/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/escalaconflict/conflicto/getDemandado
+---
+2012/12/02 09:25:46 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home3/esentia3/public_html/escalaconflict/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home3/esentia3/public_html/escalaconflict/yii/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /home3/esentia3/public_html/escalaconflict/yii/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CModule.php(388): CDbConnection->init()
+#3 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /home3/esentia3/public_html/escalaconflict/yii/framework/db/ar/CActiveRecord.php(619): CApplication->getDb()
+#5 /home3/esentia3/public_html/escalaconflict/yii/framework/db/ar/CActiveRecord.php(2262): CActiveRecord->getDbConnection()
+#6 /home3/esentia3/public_html/escalaconflict/yii/framework/db/ar/CActiveRecord.php(383): CActiveRecordMetaData->__construct(Object(SectorDemandante))
+#7 /home3/esentia3/public_html/escalaconflict/escalaconflict/protected/models/SectorDemandante.php(24): CActiveRecord::model('SectorDemandant...')
+#8 /home3/esentia3/public_html/escalaconflict/escalaconflict/protected/controllers/ConflictoController.php(163): SectorDemandante::model()
+#9 /home3/esentia3/public_html/escalaconflict/yii/framework/web/actions/CInlineAction.php(50): ConflictoController->actionGetDemandante()
+#10 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(292): CFilterChain->run()
+#17 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(283): CController->run('getDemandante')
+#19 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('conflicto/getDe...')
+#20 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /home3/esentia3/public_html/escalaconflict/escalaconflict/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/escalaconflict/conflicto/getDemandante
+---
+2012/12/02 09:27:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'esentia3_rootec'@'localhost' (using password: YES)' in /home3/esentia3/public_html/escalaconflict/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home3/esentia3/public_html/escalaconflict/yii/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /home3/esentia3/public_html/escalaconflict/yii/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CModule.php(388): CDbConnection->init()
+#3 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /home3/esentia3/public_html/escalaconflict/yii/framework/db/ar/CActiveRecord.php(619): CApplication->getDb()
+#5 /home3/esentia3/public_html/escalaconflict/yii/framework/db/ar/CActiveRecord.php(2262): CActiveRecord->getDbConnection()
+#6 /home3/esentia3/public_html/escalaconflict/yii/framework/db/ar/CActiveRecord.php(383): CActiveRecordMetaData->__construct(Object(SectorDemandante))
+#7 /home3/esentia3/public_html/escalaconflict/escalaconflict/protected/models/SectorDemandante.php(24): CActiveRecord::model('SectorDemandant...')
+#8 /home3/esentia3/public_html/escalaconflict/escalaconflict/protected/controllers/ConflictoController.php(163): SectorDemandante::model()
+#9 /home3/esentia3/public_html/escalaconflict/yii/framework/web/actions/CInlineAction.php(50): ConflictoController->actionGetDemandante()
+#10 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(292): CFilterChain->run()
+#17 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(283): CController->run('getDemandante')
+#19 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('conflicto/getDe...')
+#20 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /home3/esentia3/public_html/escalaconflict/escalaconflict/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/escalaconflict/conflicto/getDemandante
+---
+2012/12/02 09:36:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "saveMovilConflictDemo".' in /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(271): CController->missingAction('saveMovilConfli...')
+#1 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(283): CController->run('saveMovilConfli...')
+#2 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('conflicto/saveM...')
+#3 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home3/esentia3/public_html/escalaconflict/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/conflicto/saveMovilConflictDemo
+---
+2012/12/02 09:37:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "saveMovilConflictDemo".' in /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(271): CController->missingAction('saveMovilConfli...')
+#1 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(283): CController->run('saveMovilConfli...')
+#2 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('conflicto/saveM...')
+#3 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home3/esentia3/public_html/escalaconflict/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/conflicto/saveMovilConflictDemo
+---
+2012/12/02 09:38:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "saveMovilConflictDemo".' in /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(271): CController->missingAction('saveMovilConfli...')
+#1 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(283): CController->run('saveMovilConfli...')
+#2 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('conflicto/saveM...')
+#3 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home3/esentia3/public_html/escalaconflict/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/conflicto/saveMovilConflictDemo
+---
+2012/12/02 09:47:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "SaveMobilConflict".' in /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(271): CController->missingAction('SaveMobilConfli...')
+#1 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(283): CController->run('SaveMobilConfli...')
+#2 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('conflicto/SaveM...')
+#3 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home3/esentia3/public_html/escalaconflict/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/conflicto/SaveMobilConflict
+---
+2012/12/02 09:47:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "SaveMobilConflict".' in /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(271): CController->missingAction('SaveMobilConfli...')
+#1 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(283): CController->run('SaveMobilConfli...')
+#2 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('conflicto/SaveM...')
+#3 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home3/esentia3/public_html/escalaconflict/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/conflicto/SaveMobilConflict
+---
+2012/12/02 09:48:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "SaveMobilConflict".' in /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(271): CController->missingAction('SaveMobilConfli...')
+#1 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(283): CController->run('SaveMobilConfli...')
+#2 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('conflicto/SaveM...')
+#3 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home3/esentia3/public_html/escalaconflict/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/conflicto/SaveMobilConflict
+---
+2012/12/02 09:49:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "saveMobilConflict".' in /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(271): CController->missingAction('saveMobilConfli...')
+#1 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(283): CController->run('saveMobilConfli...')
+#2 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('conflicto/saveM...')
+#3 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home3/esentia3/public_html/escalaconflict/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/conflicto/saveMobilConflict
+---
+2012/12/02 10:29:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tipomes"".' in /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(271): CController->missingAction('tipomes"')
+#1 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(283): CController->run('tipomes"')
+#2 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('graficos/tipome...')
+#3 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home3/esentia3/public_html/escalaconflict/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/index.php/graficos/tipomes%22
+---
+2012/12/02 11:38:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index'".' in /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(271): CController->missingAction('index'')
+#1 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(283): CController->run('index'')
+#2 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('graficos/index'')
+#3 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home3/esentia3/public_html/escalaconflict/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/graficos/index%27
+HTTP_REFERER=http://escalaconflict.esentialbc.net/escalaconflict/
+---
+2012/12/02 11:51:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/fondo_body.jpg".' in /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('css/images/fond...')
+#1 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home3/esentia3/public_html/escalaconflict/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/css/images/fondo_body.jpg
+HTTP_REFERER=http://escalaconflict.esentialbc.net/escalaconflict/css/main.css
+---
+2012/12/02 11:52:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/fondo_body.jpg".' in /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('css/images/fond...')
+#1 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home3/esentia3/public_html/escalaconflict/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/css/images/fondo_body.jpg
+---
+2012/12/02 11:52:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/fondo_body.jpg".' in /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('css/images/fond...')
+#1 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home3/esentia3/public_html/escalaconflict/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/css/images/fondo_body.jpg
+---
+2012/12/02 11:52:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/fondo_body.jpg".' in /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('css/images/fond...')
+#1 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home3/esentia3/public_html/escalaconflict/escalaconflict/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/escalaconflict/css/images/fondo_body.jpg
+HTTP_REFERER=http://escalaconflict.esentialbc.net/escalaconflict/css/main.css
+---
+2012/12/02 12:06:23 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.usr_imei" is not defined.' in /home3/esentia3/public_html/escalaconflict/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /home3/esentia3/public_html/escalaconflict/yii/framework/db/schema/CDbCriteria.php(161): CComponent->__set('usr_imei', NULL)
+#1 /home3/esentia3/public_html/escalaconflict/yii/framework/db/schema/CDbCommandBuilder.php(462): CDbCriteria->__construct(Array)
+#2 /home3/esentia3/public_html/escalaconflict/yii/framework/db/ar/CActiveRecord.php(1595): CDbCommandBuilder->createCriteria(Array, Array)
+#3 /home3/esentia3/public_html/escalaconflict/escalaconflict/protected/controllers/ConflictoController.php(214): CActiveRecord->exists(Array)
+#4 /home3/esentia3/public_html/escalaconflict/yii/framework/web/actions/CInlineAction.php(50): ConflictoController->actionSaveConflict()
+#5 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#6 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(292): CFilterChain->run()
+#12 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(283): CController->run('saveConflict')
+#14 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('conflicto/saveC...')
+#15 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home3/esentia3/public_html/escalaconflict/escalaconflict/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/escalaconflict/conflicto/saveConflict
+---
+2012/12/02 12:06:38 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.usr_imei" is not defined.' in /home3/esentia3/public_html/escalaconflict/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /home3/esentia3/public_html/escalaconflict/yii/framework/db/schema/CDbCriteria.php(161): CComponent->__set('usr_imei', NULL)
+#1 /home3/esentia3/public_html/escalaconflict/yii/framework/db/schema/CDbCommandBuilder.php(462): CDbCriteria->__construct(Array)
+#2 /home3/esentia3/public_html/escalaconflict/yii/framework/db/ar/CActiveRecord.php(1595): CDbCommandBuilder->createCriteria(Array, Array)
+#3 /home3/esentia3/public_html/escalaconflict/escalaconflict/protected/controllers/ConflictoController.php(214): CActiveRecord->exists(Array)
+#4 /home3/esentia3/public_html/escalaconflict/yii/framework/web/actions/CInlineAction.php(50): ConflictoController->actionSaveConflict()
+#5 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#6 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(292): CFilterChain->run()
+#12 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(283): CController->run('saveConflict')
+#14 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('conflicto/saveC...')
+#15 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home3/esentia3/public_html/escalaconflict/escalaconflict/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/escalaconflict/conflicto/saveConflict
+---
+2012/12/02 12:11:46 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.usr_imei" is not defined.' in /home3/esentia3/public_html/escalaconflict/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /home3/esentia3/public_html/escalaconflict/yii/framework/db/schema/CDbCriteria.php(161): CComponent->__set('usr_imei', NULL)
+#1 /home3/esentia3/public_html/escalaconflict/yii/framework/db/schema/CDbCommandBuilder.php(462): CDbCriteria->__construct(Array)
+#2 /home3/esentia3/public_html/escalaconflict/yii/framework/db/ar/CActiveRecord.php(1595): CDbCommandBuilder->createCriteria(Array, Array)
+#3 /home3/esentia3/public_html/escalaconflict/escalaconflict/protected/controllers/ConflictoController.php(214): CActiveRecord->exists(Array)
+#4 /home3/esentia3/public_html/escalaconflict/yii/framework/web/actions/CInlineAction.php(50): ConflictoController->actionSaveConflict()
+#5 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#6 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(292): CFilterChain->run()
+#12 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(283): CController->run('saveConflict')
+#14 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('conflicto/saveC...')
+#15 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home3/esentia3/public_html/escalaconflict/escalaconflict/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/escalaconflict/conflicto/saveConflict
+---
+2012/12/02 12:12:13 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /home3/esentia3/public_html/escalaconflict/yii/framework/gii/GiiModule.php:169
+Stack trace:
+#0 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(264): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(283): CController->run('')
+#2 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('gii')
+#3 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home3/esentia3/public_html/escalaconflict/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/gii
+---
+2012/12/02 12:13:30 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /home3/esentia3/public_html/escalaconflict/yii/framework/gii/GiiModule.php:169
+Stack trace:
+#0 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(264): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(283): CController->run('')
+#2 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('gii')
+#3 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home3/esentia3/public_html/escalaconflict/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/gii
+---
+2012/12/02 12:13:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /home3/esentia3/public_html/escalaconflict/yii/framework/gii/GiiModule.php:169
+Stack trace:
+#0 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(264): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(283): CController->run('')
+#2 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('gii')
+#3 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home3/esentia3/public_html/escalaconflict/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/gii
+---
+2012/12/02 12:14:20 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.usr_imei" is not defined.' in /home3/esentia3/public_html/escalaconflict/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /home3/esentia3/public_html/escalaconflict/yii/framework/db/schema/CDbCriteria.php(161): CComponent->__set('usr_imei', NULL)
+#1 /home3/esentia3/public_html/escalaconflict/yii/framework/db/schema/CDbCommandBuilder.php(462): CDbCriteria->__construct(Array)
+#2 /home3/esentia3/public_html/escalaconflict/yii/framework/db/ar/CActiveRecord.php(1595): CDbCommandBuilder->createCriteria(Array, Array)
+#3 /home3/esentia3/public_html/escalaconflict/escalaconflict/protected/controllers/ConflictoController.php(214): CActiveRecord->exists(Array)
+#4 /home3/esentia3/public_html/escalaconflict/yii/framework/web/actions/CInlineAction.php(50): ConflictoController->actionSaveConflict()
+#5 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#6 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(292): CFilterChain->run()
+#12 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(283): CController->run('saveConflict')
+#14 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('conflicto/saveC...')
+#15 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home3/esentia3/public_html/escalaconflict/escalaconflict/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/escalaconflict/conflicto/saveConflict
+---
+2012/12/02 12:14:24 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /home3/esentia3/public_html/escalaconflict/yii/framework/gii/GiiModule.php:169
+Stack trace:
+#0 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(264): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(283): CController->run('')
+#2 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('gii')
+#3 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home3/esentia3/public_html/escalaconflict/escalaconflict/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/escalaconflict/gii?password=gii
+---
+2012/12/02 12:14:38 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.usr_imei" is not defined.' in /home3/esentia3/public_html/escalaconflict/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /home3/esentia3/public_html/escalaconflict/yii/framework/db/schema/CDbCriteria.php(161): CComponent->__set('usr_imei', NULL)
+#1 /home3/esentia3/public_html/escalaconflict/yii/framework/db/schema/CDbCommandBuilder.php(462): CDbCriteria->__construct(Array)
+#2 /home3/esentia3/public_html/escalaconflict/yii/framework/db/ar/CActiveRecord.php(1595): CDbCommandBuilder->createCriteria(Array, Array)
+#3 /home3/esentia3/public_html/escalaconflict/escalaconflict/protected/controllers/ConflictoController.php(214): CActiveRecord->exists(Array)
+#4 /home3/esentia3/public_html/escalaconflict/yii/framework/web/actions/CInlineAction.php(50): ConflictoController->actionSaveConflict()
+#5 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#6 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(292): CFilterChain->run()
+#12 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(283): CController->run('saveConflict')
+#14 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('conflicto/saveC...')
+#15 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home3/esentia3/public_html/escalaconflict/escalaconflict/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/escalaconflict/conflicto/saveConflict
+---
+2012/12/02 12:14:55 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.usr_imei" is not defined.' in /home3/esentia3/public_html/escalaconflict/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /home3/esentia3/public_html/escalaconflict/yii/framework/db/schema/CDbCriteria.php(161): CComponent->__set('usr_imei', NULL)
+#1 /home3/esentia3/public_html/escalaconflict/yii/framework/db/schema/CDbCommandBuilder.php(462): CDbCriteria->__construct(Array)
+#2 /home3/esentia3/public_html/escalaconflict/yii/framework/db/ar/CActiveRecord.php(1595): CDbCommandBuilder->createCriteria(Array, Array)
+#3 /home3/esentia3/public_html/escalaconflict/escalaconflict/protected/controllers/ConflictoController.php(214): CActiveRecord->exists(Array)
+#4 /home3/esentia3/public_html/escalaconflict/yii/framework/web/actions/CInlineAction.php(50): ConflictoController->actionSaveConflict()
+#5 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#6 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(292): CFilterChain->run()
+#12 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(283): CController->run('saveConflict')
+#14 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('conflicto/saveC...')
+#15 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home3/esentia3/public_html/escalaconflict/escalaconflict/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/escalaconflict/conflicto/saveConflict
+---
+2012/12/02 12:15:45 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.usr_imei" is not defined.' in /home3/esentia3/public_html/escalaconflict/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /home3/esentia3/public_html/escalaconflict/yii/framework/db/schema/CDbCriteria.php(161): CComponent->__set('usr_imei', NULL)
+#1 /home3/esentia3/public_html/escalaconflict/yii/framework/db/schema/CDbCommandBuilder.php(462): CDbCriteria->__construct(Array)
+#2 /home3/esentia3/public_html/escalaconflict/yii/framework/db/ar/CActiveRecord.php(1595): CDbCommandBuilder->createCriteria(Array, Array)
+#3 /home3/esentia3/public_html/escalaconflict/escalaconflict/protected/controllers/ConflictoController.php(214): CActiveRecord->exists(Array)
+#4 /home3/esentia3/public_html/escalaconflict/yii/framework/web/actions/CInlineAction.php(50): ConflictoController->actionSaveConflict()
+#5 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#6 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(292): CFilterChain->run()
+#12 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(283): CController->run('saveConflict')
+#14 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('conflicto/saveC...')
+#15 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home3/esentia3/public_html/escalaconflict/escalaconflict/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/escalaconflict/conflicto/saveConflict
+---
+2012/12/02 12:20:27 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.usr_imei" is not defined.' in /home3/esentia3/public_html/escalaconflict/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /home3/esentia3/public_html/escalaconflict/yii/framework/db/schema/CDbCriteria.php(161): CComponent->__set('usr_imei', NULL)
+#1 /home3/esentia3/public_html/escalaconflict/yii/framework/db/schema/CDbCommandBuilder.php(462): CDbCriteria->__construct(Array)
+#2 /home3/esentia3/public_html/escalaconflict/yii/framework/db/ar/CActiveRecord.php(1595): CDbCommandBuilder->createCriteria(Array, Array)
+#3 /home3/esentia3/public_html/escalaconflict/escalaconflict/protected/controllers/ConflictoController.php(214): CActiveRecord->exists(Array)
+#4 /home3/esentia3/public_html/escalaconflict/yii/framework/web/actions/CInlineAction.php(50): ConflictoController->actionSaveConflict()
+#5 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#6 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 /home3/esentia3/public_html/escalaconflict/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(292): CFilterChain->run()
+#12 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(283): CController->run('saveConflict')
+#14 /home3/esentia3/public_html/escalaconflict/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('conflicto/saveC...')
+#15 /home3/esentia3/public_html/escalaconflict/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home3/esentia3/public_html/escalaconflict/escalaconflict/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/escalaconflict/conflicto/saveConflict
+---

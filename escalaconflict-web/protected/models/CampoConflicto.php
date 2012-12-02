@@ -91,4 +91,6 @@ class CampoConflicto extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+        
+        
 }
